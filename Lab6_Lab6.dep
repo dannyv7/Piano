@@ -1,39 +1,0 @@
-Dependencies for Project 'Lab6', Target 'Lab6': (DO NOT MODIFY !)
-F (.\startup.s)(0x561EAE3B)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary--pd "__UVISION_VERSION SETA 516"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\Sound.c)(0x5625F80C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="516" -Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
-I (dac.h)(0x5625A913)
-I (..\tm4c123gh6pm.h)(0x561BC80E)
-I (notes.h)(0x5625F4ED)
-I (Heartbeat.h)(0x56254C4A)
-I (SysTickInts.h)(0x53E9219C)
-F (.\piano.c)(0x56255DE6)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="516" -Drvmdk -DPART_LM4F120H5QR-o .\piano.o --omf_browse .\piano.crf --depend .\piano.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
-I (..\tm4c123gh6pm.h)(0x561BC80E)
-F (.\dac.c)(0x56258067)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="516" -Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
-I (..\tm4c123gh6pm.h)(0x561BC80E)
-F (.\Lab6.c)(0x56266A43)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="516" -Drvmdk -DPART_LM4F120H5QR-o .\lab6.o --omf_browse .\lab6.crf --depend .\lab6.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
-I (..\tm4c123gh6pm.h)(0x561BC80E)
-I (Sound.h)(0x56254C4A)
-I (Piano.h)(0x561EAE3B)
-I (TExaS.h)(0x561EAE3B)
-I (Heartbeat.h)(0x56254C4A)
-I (notes.h)(0x5625F4ED)
-I (Instrument_Select.h)(0x56254C4A)
-I (song.h)(0x562650EA)
-F (.\Instrument_Select.c)(0x5625EA43)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="516" -Drvmdk -DPART_LM4F120H5QR-o .\instrument_select.o --omf_browse .\instrument_select.crf --depend .\instrument_select.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
-I (..\tm4c123gh6pm.h)(0x561BC80E)
-F (.\Heartbeat.c)(0x56254B0E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="516" -Drvmdk -DPART_LM4F120H5QR-o .\heartbeat.o --omf_browse .\heartbeat.crf --depend .\heartbeat.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
-I (..\tm4c123gh6pm.h)(0x561BC80E)
-F (.\song.c)(0x5626942F)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="516" -Drvmdk -DPART_LM4F120H5QR-o .\song.o --omf_browse .\song.crf --depend .\song.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
-I (..\tm4c123gh6pm.h)(0x561BC80E)
-I (notes.h)(0x5625F4ED)
-I (Sound.h)(0x56254C4A)
-I (greensleeves.h)(0x5625A4F0)
-I (Heartbeat.h)(0x56254C4A)
-F (.\texas.o)(0x561EAE3B)()
